@@ -14,7 +14,7 @@ function determineWinner(userChoice, aiChoice) {
         (userChoice === "paper" && aiChoice === "rock") ||
         (userChoice === "scissors" && aiChoice === "paper")
     ) {
-        return "You win!";
+        return "Rez wins!";
     } else {
         return "AI wins!";
     }
